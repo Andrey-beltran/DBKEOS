@@ -35,7 +35,7 @@ const Dashboard = () => {
         <header className="border-b bg-background z-10">
           <div className="flex justify-between items-center px-6 py-4">
             <div>
-              <h1 className="text-3xl font-bold text-keos-primary">Keos - Anyawayback</h1>
+              <h1 className="text-3xl font-bold text-keos-primary">Keos - Anywayback</h1>
               <p className="text-muted-foreground">{greeting}, bienvenido al panel de análisis estratégico</p>
             </div>
             <div className="flex items-center gap-4">
