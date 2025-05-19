@@ -1,6 +1,7 @@
 {
   "name": "vite_react_shadcn_ts",
   "private": true,
+  "homepage": "https://andrey-beltran.github.io/DBKEOS",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,6 +10,8 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
