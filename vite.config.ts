@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/DBKEOS/", // 👈 ESTA LÍNEA es esencial para GitHub Pages
+  base: "/", // 👈 para Netlify
 
   server: {
     host: "::",
